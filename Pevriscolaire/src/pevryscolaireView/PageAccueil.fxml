@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="panneauAccueil" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pevryscolaireController.SceneConnexionController">
+   <children>
+      <AnchorPane layoutX="150.0" prefHeight="119.0" prefWidth="566.0" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="419.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="14.0" layoutY="9.0" text="Bonjour">
+               <font>
+                  <Font name="Cambria" size="30.0" />
+               </font>
+            </Label>
+            <Separator layoutX="14.0" layoutY="42.0" prefHeight="3.0" prefWidth="98.0" />
+            <Label fx:id="nomUser" layoutX="119.0" layoutY="9.0">
+               <font>
+                  <Font name="Calibri" size="30.0" />
+               </font>
+            </Label>
+            <Polygon fill="DODGERBLUE" layoutX="562.0" layoutY="-18.0" points="-40.79998779296875, 18.492919921875, 15.20001220703125, 77.5999755859375, 15.20001220703125, 18.492919921875" stroke="BLACK" strokeType="INSIDE" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <ImageView fitHeight="104.0" fitWidth="170.0" layoutX="203.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../image/logo_pevryscolaire.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="5.0" layoutY="100.0" opacity="0.7" prefHeight="10.0" prefWidth="566.0" style="-fx-background-color: #1e90ff;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="119.0" prefHeight="190.0" prefWidth="566.0" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="221.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="119.0">
+         <children>
+            <Label layoutX="89.0" layoutY="-5.0" text="Les différents services proposés" textAlignment="CENTER">
+               <font>
+                  <Font name="Cambria" size="30.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="3.0" layoutY="34.0" prefHeight="159.0" prefWidth="186.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="35.0">
+               <children>
+                  <Label layoutX="22.0" layoutY="35.0" text="Accueil du matin et du soir" />
+                  <Label layoutX="20.0" layoutY="70.0" text="- Le matin de 7h45 à 8h30" />
+                  <Label layoutX="20.0" layoutY="121.0" text="- Le soir de 16h30 à 18h" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="182.0" layoutY="34.0" prefHeight="166.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="181.60000000000002" AnchorPane.topAnchor="35.0">
+               <children>
+                  <Label alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="73.0" layoutY="34.0" text="Les sports" textAlignment="CENTER" />
+                  <Separator layoutX="-3.0" layoutY="29.0" orientation="VERTICAL" prefHeight="147.0" prefWidth="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-3.0" AnchorPane.topAnchor="29.0" />
+                  <Separator layoutX="192.0" layoutY="29.0" orientation="VERTICAL" prefHeight="147.0" prefWidth="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="-7.0" AnchorPane.topAnchor="29.0" />
+                  <Label layoutX="17.0" layoutY="71.0" prefHeight="18.0" prefWidth="54.0" text="- Football" />
+                  <Label layoutX="13.0" layoutY="98.0" prefHeight="18.0" prefWidth="62.0" text="- Basketball" />
+                  <Label layoutX="13.0" layoutY="124.0" prefHeight="18.0" prefWidth="62.0" text="- Handball" />
+                  <Label layoutX="115.0" layoutY="71.0" prefHeight="18.0" prefWidth="69.0" text="- Athlétisme" />
+                  <Label layoutX="119.0" layoutY="98.0" prefHeight="18.0" prefWidth="62.0" text="- Natation" />
+                  <Label layoutX="119.0" layoutY="124.0" prefHeight="18.0" prefWidth="62.0" text="- Tennis" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="378.0" layoutY="34.0" prefHeight="140.0" prefWidth="186.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="378.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="35.0">
+               <children>
+                  <Label layoutX="44.0" layoutY="33.0" text="L'aide aux devoirs" />
+                  <Label layoutX="55.0" layoutY="70.0" text="Les mercredis" />
+                  <Label layoutX="42.0" layoutY="125.0" text="- Soit de 14h à 16h30" />
+                  <Label layoutX="41.0" layoutY="100.0" text="- Soit de 09h à 12h" />
+               </children>
+            </AnchorPane>
+            <Separator layoutX="76.0" layoutY="33.0" prefHeight="3.0" prefWidth="443.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="182.0" layoutY="316.0" prefHeight="235.0" prefWidth="576.0" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="316.0">
+         <children>
+            <Label layoutX="225.0" layoutY="26.0" text="Les lieux" textAlignment="CENTER">
+               <font>
+                  <Font name="Cambria" size="30.0" />
+               </font>
+            </Label>
+            <Separator layoutX="210.0" layoutY="62.0" prefHeight="3.0" prefWidth="142.0" />
+            <Label layoutX="42.0" layoutY="101.0" text="Gymnase Colette Besson" />
+            <Label layoutX="43.0" layoutY="140.0" text="Complexe Sportif du Lac" />
+            <Label layoutX="43.0" layoutY="184.0" text="Gymnase François Mauriac" />
+            <Label layoutX="225.0" layoutY="101.0" prefHeight="16.0" prefWidth="279.0" text="26 Rue du Plessis Briard, 91080 Évry-Courcouronnes" />
+            <Label layoutX="225.0" layoutY="140.0" text="Av. Pierre Bérégovoy, 91080 Évry-Courcouronnes" />
+            <Label layoutX="224.0" layoutY="184.0" text="Rue François Mauriac, 91000 Évry-Courcouronnes" />
+            <AnchorPane layoutY="9.0" opacity="0.7" prefHeight="10.0" prefWidth="566.0" style="-fx-background-color: #1e90ff;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+            <AnchorPane layoutX="14.0" layoutY="218.0" opacity="0.7" prefHeight="10.0" prefWidth="566.0" style="-fx-background-color: #1e90ff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="10.0" layoutY="75.0" opacity="0.7" prefHeight="10.0" prefWidth="566.0" style="-fx-background-color: #1e90ff;" AnchorPane.bottomAnchor="0.0" />
+   </children>
+</AnchorPane>
